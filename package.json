@@ -1,0 +1,22 @@
+{
+  "name": "cadastro",
+  "version": "1.0.0",
+  "description": "tela de cadastro de usuario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andallves/cadastro.git"
+  },
+  "author": "andre alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andallves/cadastro/issues"
+  },
+  "homepage": "https://github.com/andallves/cadastro#readme",
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}

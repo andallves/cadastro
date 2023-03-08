@@ -30,7 +30,40 @@ section {
 
 .cadastro-header h1 {
     color: #ccc;
+    padding: .5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
-    text-shadow: 1em 1em .1em 5em #000000;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.form-campo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 80%;
+    position: relative;
+}
+.form-campo input {
+    padding: .4rem;
+}
+.form-campo label {
+    padding: .4rem;
+    position: absolute;
+    justify-content: center;
+}
+.btn-cadastrar {
+    margin-top: 2rem;
+    width: 80%;
+    
+}
+.btn-cadastrar input {
+    width: 100%;
+    padding: .4rem;
+    border-radius: 20px;
 }
