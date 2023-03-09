@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./_css/style.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <script src="_js/script.js" defer></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -17,24 +18,24 @@
             <form class="form-container">
                 <div class="form-campo-nome">
                     <div class="form-campo">
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" required>
                         <label for="nome">Nome</label>
                     </div>
                     <div class="form-campo">
-                        <input type="text" name="sobrenome" id="sobrenome">
+                        <input type="text" name="sobrenome" id="sobrenome" required>
                         <label for="sobrenome"> Sobrenome</label>
                     </div>
                 </div>
                 <div class="form-campo">
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     <label for="email">Email</label>
                 </div>
                 <div class="form-campo">
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
                     <label for="password">Senha</label>
                 </div>
                 <div class="form-campo">
-                    <input type="password" name="confirme-password" id="confirme-password">
+                    <input type="password" name="confirme-password" id="confirme-password" required>
                     <label for="confime-password">Confirme sua senha</label>
                 </div>
 
@@ -46,6 +47,6 @@
 
     </section>
 
-    <script src="./cadastro/_js/script.js" />
+    
 </body>
 </html>
