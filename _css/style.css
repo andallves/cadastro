@@ -45,7 +45,7 @@ section {
 .form-campo {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding: 1rem 0;
     width: 80%;
     position: relative;
 }
@@ -57,11 +57,23 @@ section {
     justify-content: space-between;
 }
 
+.form-campo label {
+    padding: .4rem;
+    position: absolute;
+    justify-content: center;
+}
+
+.form-campo input:focus ~ label {
+    color: red;
+    top: -.7rem;
+    
+} 
 .form-campo input {
     padding: .5rem;
     border: none;
     border-radius: 5px;
     outline: none;
+    transition: all .3s;
 }
 .form-campo input[type=text] {
     width: 90%;
@@ -72,16 +84,9 @@ section {
 }
 .form-campo input:focus {
     border: none;
-}
-.form-campo input:focus ~ label{
-    color: red;
     
 }
-.form-campo label {
-    padding: .4rem;
-    position: absolute;
-    justify-content: center;
-}
+
 .btn-cadastrar {
     margin-top: 2rem;
     width: 80%;
